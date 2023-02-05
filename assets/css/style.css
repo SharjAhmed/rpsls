@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+* {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+body {
+  background-color: #45414d;
+  color: #ffffff;
+}
+
+/* header */
+h1 {
+  font-size: 40px;
+}
+
+.fa-hand-back-fist {
+  color: #ff2020;
+}
+
+.fa-hand {
+  color: #ff7b20;
+}
+
+.fa-hand-scissors {
+  color: #f1c40f;
+}
+
+.fa-hand-lizard {
+  color: #00cc00;
+}
+
+.fa-hand-spock {
+  color: #0093ff;
+}
+
+/* game area */
+
+#player-choice {
+  width: 140px;
+  height: 140px;
+  border: 2px solid #ffffff;
+  border-style: dashed;
+  border-radius: 50%;
+}
+
+#computer-choice {
+  width: 140px;
+  height: 140px;
+  border: 2px solid #ffffff;
+  border-style: dashed;
+  border-radius: 50%;
+}
+
+#choices {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#choices img {
+  width: 75px;
+  height: 75px;
+}
+
+#choices img:hover {
+  border: 2px solid #ffffff;
+  border-style: dashed;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#player-score {
+  padding-top: 5px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#result {
+  font-size: 30px;
+  width: 100%;
+  background-color: gold;
+  color: #45414d;
+  padding: 0.5% 0;
+}
+
+/*rules button*/
+#button {
+  position: relative;
+  top: 50%;
+  background-color: #ffffff;
+  color: #45414d;
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  min-height: 30px;
+  margin-top: 3%;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #45414d;
+  color: #ffffff;
+  border: #ffffff;
+  border-style: dashed;
+}
+
+.game-rules {
+  font-family: Condensed, sans-serif;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.rules-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #45414d;
+  width: 40%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.quote {
+  margin: 1% 30%;
+  font-size: 75%;
+}
+
+@media screen and (max-width: 420px) {
+  #header {
+    padding: 3%;
+    font-size: 11px;
+  }
+
+  #choices {
+    padding: 10px;
+  }
+
+  #choices img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .name {
+    font-size: 120%;
+    margin: 0;
+  }
+
+  #player-choice {
+    margin: 10px;
+  }
+
+  #player-choice {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    border-radius: 50%;
+  }
+
+  #computer-choice {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    border-radius: 50%;
+  }
+
+  #computer-choice {
+    margin: 10px;
+  }
+
+  #result {
+    font-size: 20px;
+    width: 100%;
+    background-color: gold;
+  }
+
+  #button {
+    margin: 10%;
+  }
+
+  .rules-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    color: #45414d;
+    padding: 20px;
+    border: 1px solid #45414d;
+    width: 75%;
+  }
+
+  .quote {
+    margin: 1% 5%;
+    font-size: 60%;
+  }
+}
