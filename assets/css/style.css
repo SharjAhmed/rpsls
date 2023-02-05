@@ -126,6 +126,7 @@ p {
 
 .rules-content {
   background-color: #fefefe;
+  color: #45414d;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #45414d;
@@ -207,11 +208,6 @@ p {
   }
 
   .rules-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    color: #45414d;
-    padding: 20px;
-    border: 1px solid #45414d;
     width: 75%;
   }
 

@@ -56,7 +56,7 @@ function selectChoice() {
     }
     else {
         if (player == "rock") {
-            if (computer == "scissor") {
+            if (computer == "scissors") {
                 playerScore.innerText = ++parsedplayerScore;
                 result.innerHTML = 'You Win!';
             }
@@ -74,7 +74,7 @@ function selectChoice() {
             }
         }
 
-        else if (player == "scissor") {
+        else if (player == "scissors") {
             if (computer == "paper") {
                 playerScore.innerText = ++parsedplayerScore;
                 result.innerHTML = 'You Win!';
@@ -101,7 +101,7 @@ function selectChoice() {
                 playerScore.innerText = ++parsedplayerScore;
                 result.innerHTML = 'You Win!';
             }
-            else if (computer == "scissor") {
+            else if (computer == "scissors") {
                 computerScore.innerText = ++parsedcomputerScore;
                 result.innerHTML = 'You Lose!';
             }
@@ -120,7 +120,7 @@ function selectChoice() {
                 playerScore.innerText = ++parsedplayerScore;
                 result.innerHTML = 'You Win!';
             }
-            else if (computer == "scissor") {
+            else if (computer == "scissors") {
                 computerScore.innerText = ++parsedcomputerScore;
                 result.innerHTML = 'You Lose!';
             }
@@ -131,7 +131,7 @@ function selectChoice() {
         }
 
         else if (player == "spock") {
-            if (computer == "scissor") {
+            if (computer == "scissors") {
                 playerScore.innerText = ++parsedplayerScore;
                 result.innerHTML = 'You Win!';
             }
